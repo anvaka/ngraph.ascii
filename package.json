@@ -16,5 +16,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/ngraph.ascii"
+  },
+  "dependencies": {
+    "ngraph.forcelayout": "0.0.7",
+    "ngraph.merge": "0.0.1"
+  },
+  "devDependencies": {
+    "ngraph.generators": "0.0.2",
+    "ngraph.physics.simulator": "0.0.5",
+    "tap": "~0.4.8"
   }
 }
