@@ -4,7 +4,7 @@ A simple toy to render a graph with text symbols.
 
 # Example
 
-This will render a 10x10 grid graph on your terminal:
+This will render a 10x10 grid graph in your terminal:
 
 ``` js
 var graph = require('ngraph.generators').grid(10, 10);
