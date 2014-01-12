@@ -27,7 +27,7 @@ asciiGraphics.createNodeUI(function (node) {
 asciiGraphics.run();
 ```
 
-Results: 
+Even though the name says `ascii` you can use unicode symbols if your terminal supports them: 
 
 [![http://i.snag.gy/XiQMS.jpg](http://i.snag.gy/XiQMS.jpg)](https://www.youtube.com/watch?v=tCPwCAZ8xFE)
 
