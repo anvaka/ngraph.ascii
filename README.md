@@ -20,7 +20,7 @@ var graph = require('ngraph.generators').grid(10, 10);
 var asciiGraphics = require('../').graphics(graph);
 
 asciiGraphics.createNodeUI(function (node) {
-  return '+'; each node is now rendered as a '+' symbol
+  return '+'; // each node is now rendered as a '+' symbol
 });
 
 asciiGraphics.run();
