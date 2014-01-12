@@ -10,4 +10,9 @@
  */
 module.exports.graphics = require('./lib/graphics');
 
+/**
+ * This primary serves as a mock for terminal, to test this package. But
+ * You can also use it if you want to graph as a text to somewhere elese
+ * See `./lib/arrayScreen` for detailed information
+ */
 module.exports.arrayScreen = require('./lib/arrayScreen');

@@ -26,6 +26,11 @@ asciiGraphics.createNodeUI(function (node) {
 asciiGraphics.run();
 ```
 
+Results: [YouTube](https://www.youtube.com/watch?v=tCPwCAZ8xFE)
+
+Note: in these exmamples we are using ngraph.generators to create a predefined graph.
+You can always use [ngraph.graph](https://github.com/anvaka/ngraph.graph) for custom graphs.
+
 # install
 
 With [npm](https://npmjs.org) do:
