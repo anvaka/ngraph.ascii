@@ -2,6 +2,7 @@
 
 A simple toy to render a graph with text symbols.
 
+[![build status](https://secure.travis-ci.org/anvaka/ngraph.ascii.png)](http://travis-ci.org/anvaka/ngraph.ascii)
 # Example
 
 This will render a 10x10 grid graph in your terminal:
