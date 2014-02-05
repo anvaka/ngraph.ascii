@@ -1,6 +1,6 @@
 {
   "name": "ngraph.ascii",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a small toy to render graph with text",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "ngraph.merge": "0.0.1"
   },
   "devDependencies": {
-    "ngraph.generators": "0.0.2",
+    "ngraph.generators": "~0.0",
     "ngraph.physics.simulator": "0.0.5",
     "tap": "~0.4.8"
   }
