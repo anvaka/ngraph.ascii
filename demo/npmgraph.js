@@ -3,8 +3,9 @@ var http = require('http');
 var querystring = require('querystring');
 var graph = require('ngraph.graph')();
 var graphBuilder = require('npmgraphbuilder')(httpClient);
+var pkgName = process.argv[2] || 'browserify';
 
-graphBuilder.createNpmDependenciesGraph('browserify', graph)
+graphBuilder.createNpmDependenciesGraph(pkgName, graph)
   .then(renderGraph)
   .fail(function (err) {
     console.error('Failed to build graph: ', err);
@@ -12,7 +13,6 @@ graphBuilder.createNpmDependenciesGraph('browserify', graph)
 
 function renderGraph(graph) {
   var asciiGraphics = require('../').graphics(graph);
-
   asciiGraphics.run();
 }
 
