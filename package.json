@@ -26,7 +26,7 @@
     "ngraph.physics.simulator": "0.0.5",
     "tap": "~0.4.8",
     "npmgraphbuilder": "0.0.2",
-    "q": "^1.0.0",
+    "q": "1.0.0",
     "ngraph.graph": "0.0.2"
   }
 }
