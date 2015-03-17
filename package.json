@@ -18,15 +18,15 @@
     "url": "https://github.com/anvaka/ngraph.ascii"
   },
   "dependencies": {
-    "ngraph.forcelayout": "0.0.12",
+    "ngraph.forcelayout": "0.0.16",
     "ngraph.merge": "0.0.1"
   },
   "devDependencies": {
-    "ngraph.generators": "~0.0",
-    "ngraph.physics.simulator": "0.0.8",
+    "ngraph.generators": "0.0.13",
+    "ngraph.physics.simulator": "0.0.10",
     "tap": "~0.4.8",
     "npmgraphbuilder": "0.0.3",
     "q": "1.0.0",
-    "ngraph.graph": "0.0.5"
+    "ngraph.graph": "0.0.8"
   }
 }
