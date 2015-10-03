@@ -1,6 +1,6 @@
 {
   "name": "ngraph.ascii",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "a small toy to render graph with text",
   "main": "index.js",
   "scripts": {
